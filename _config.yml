@@ -130,11 +130,30 @@ pagination:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
+# 
+# DH: repo
+# repo: djherron/discussions 
+# repo_id: R_kgDOIrZipg
+# * this repo is a public repo dedicated to hosting GitHub Discussions
+# for the purpose of hosting 'giscus' comments visitors to my personal website may 
+# choose to leave per blog posts, projects, or whatever
+# * by hosting 'giscus' comments on this dedicated public repo, I am free to turn
+# my personal website repo *private* at some point, whilst preserving the ability
+# for visitors to see and make 'giscus' comments
+#
+# DH: for testing purposes, use:
+# category: Comments-test
+# category_id: DIC_kwDOIrZips4CTRSp
+#
+# DH: for production purposes, use:
+# category: Comments
+# category_id: DIC_kwDOIrZips4CTRSo
+#
 giscus:
-  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
-  category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
+  repo: djherron/discussions  # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDOIrZipg
+  category: Comments     # name of the category under which discussions will be created
+  category_id: DIC_kwDOIrZips4CTRSo
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
@@ -340,7 +359,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    true   # enables google analytics
+enable_google_analytics:    false   # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification

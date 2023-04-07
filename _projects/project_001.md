@@ -3,7 +3,7 @@ layout: page
 title: community logos (iteration 1)
 description: a project exploring ideas for community logos
 img: assets/img/NeSy-Systems-Logo-B-4.jpg
-importance: 3
+importance: 5
 category: neuro-symbolic systems community
 ---
 

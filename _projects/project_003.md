@@ -3,7 +3,7 @@ layout: page
 title: community logos (iteration 2)
 description: a project exploring ideas for community logos
 img: assets/img/project-003/iteration-2-cover-image.png
-importance: 4
+importance: 5
 category: neuro-symbolic systems community
 ---
 

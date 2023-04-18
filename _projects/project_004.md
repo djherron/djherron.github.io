@@ -3,7 +3,7 @@ layout: page
 title: community logos (iteration 3)
 description: a project exploring ideas for community logos
 img: assets/img/project-under-construction-image-1.png
-importance: 3
+importance: 4
 category: neuro-symbolic systems community
 ---
 

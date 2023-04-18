@@ -3,7 +3,7 @@ layout: page
 title: community website Jekyll themes
 description: a project listing candidate community website Jekyll themes
 img: assets/img/NeSy-Systems-Logo-B-4.jpg
-importance: 6
+importance: 7
 category: neuro-symbolic systems community
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: paper presented at NeSy 2023
+title: position paper presented at NeSy 2023
 date: 2023-07-09 11:00
 inline: false
 ---

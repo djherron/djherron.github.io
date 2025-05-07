@@ -398,18 +398,41 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-paper-accepted-by-iswc-2022-doctoral-consortium",
+          title: 'paper accepted by ISWC 2022 Doctoral Consortium',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/announcement_001/";
+            },},{id: "news-my-research-proposal-paper-recently-accepted-for-presentation-at-the-doctoral-consortium-of-iswc-2022-has-been-published-in-the-conference-proceedings-ceur-ws-org",
+          title: 'My research proposal paper, recently accepted for presentation at the Doctoral Consortium of...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-my-application-to-transfer-from-the-mphil-stage-to-the-phd-stage-of-city-s-phd-programme-was-recently-accepted-wine-glass",
+          title: 'My application to transfer from the MPhil-stage to the PhD-stage of City’s PhD...',
+          description: "",
+          section: "News",},{id: "news-paper-presented-at-iswc-2022-doctoral-consortium",
+          title: 'paper presented at ISWC 2022 Doctoral Consortium',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_004/";
+            },},{id: "news-neuro-symbolic-ai-research-community-forming-at-city",
+          title: 'Neuro-Symbolic AI research community forming at City',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_005/";
+            },},{id: "news-our-position-paper-on-the-benefits-of-owl-based-knowledge-graphs-for-neural-symbolic-systems-has-been-accepted-for-presentation-at-the-nesy-workshop-on-neural-symbolic-learning-and-reasoning-2023-conference-to-be-held-in-siena-italy-in-july-heavy-exclamation-mark-sunglasses-wine-glass",
+          title: 'Our position paper On the Benefits of OWL-based Knowledge Graphs for Neural-Symbolic Systems...',
+          description: "",
+          section: "News",},{id: "news-resource-paper-preprint-available-on-arxiv",
+          title: 'resource paper preprint available on arXiv',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_007/";
+            },},{id: "news-position-paper-presented-at-nesy-2023",
+          title: 'position paper presented at NeSy 2023',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_008/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {

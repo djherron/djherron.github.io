@@ -87,8 +87,10 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: random enthusiasms # blog_name will be displayed in your blog page
+blog_description: >- # this means to ignore newlines until "permalink:"
+  random contributions likely to be (but not necessarily) at the intersection of AI, 
+  machine learning, deep learning, data science, probability and statistics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -102,33 +104,60 @@ related_blog_posts:
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
+
+# 
+# DH: repo
+# repo: djherron/discussions 
+# repo_id: R_kgDOIrZipg
+# * this repo is a public repo dedicated to hosting GitHub Discussions
+# for the purpose of hosting 'giscus' comments visitors to my personal website may 
+# choose to leave per blog posts, projects, or whatever
+# * by hosting 'giscus' comments on this dedicated public repo, I am free to turn
+# my personal website repo *private* at some point, whilst preserving the ability
+# for visitors to see and make 'giscus' comments
+#
+# DH: for testing purposes, use:
+# category: Comments-test
+# category_id: DIC_kwDOIrZips4CTRSp
+#
+# DH: for production purposes, use:
+# category: Comments
+# category_id: DIC_kwDOIrZips4CTRSo
+#
+
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
+  repo: djherron/discussions # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDOIrZipg # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-  mapping: title # identify discussions by post title
-  strict: 1 # use strict identification mode
-  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
+  category_id: DIC_kwDOIrZips4CTRSo # leave empty or specify your category_id (see https://giscus.app/)
+  mapping: title           # identify discussions by post title
+  strict: 1                # use strict identification mode
+  reactions_enabled: 1     # enable (1) or disable (0) emoji reactions
+  input_position: bottom   # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+
+#
+# DH: I'm choosing to comment-out these lines since I don't have any blog posts
+# on external sources 
+#
+
+#external_sources:
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
+#  - name: Google Blog
+#    posts:
+#      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#        published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter

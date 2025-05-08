@@ -1,115 +1,84 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{herron2022,
+  author      = {David Herron},
+  title       = {Visual {R}elationship {D}etection using {K}nowledge {G}raphs for {N}eural-{S}ymbolic {AI}},
+  booktitle   = {Proceedings of the Doctoral Consortium at ISWC},
+  volume      = {3165},
+  year        = {2022},
+  publisher   = {CEUR Workshop Proceedings},
+  html        = {https://ceur-ws.org/Vol-3165/},
+  abstract    = {Momentum is surging behind the consensus that neural-symbolic AI is the right road for AI to take today.  We propose to travel this road using Semantic Web technologies to represent the symbolic AI tradition. Our objective is to investigate and compare the efficacy of a variety of strategies for combining the capabilities of deep neural networks for statistical learning from data with those of OWL ontologies and knowledge graphs for symbolic knowledge representation and reasoning. Our application area is visual relationship detection within images. Deep learning is data hungry and struggles to generalise to examples outside the training distribution. We seek to show that combining Semantic Web prior knowledge and reasoning with deep learning can deliver superior performance, can substitute for plentiful training data, and can deliver robust generalisation in few-shot/zero-shot learning scenarios.},
+  abbr        = {ISWC},
+  bibtex_show = {true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@article{Herron/2023/nesy4vrd,
+  author    = {David Herron and
+               Ernesto Jim{\'{e}}nez-Ruiz and
+               Giacomo Tarroni and
+               Tillman Weyde},
+  title     = {{NeSy4VRD: A Multifaceted Resource for Neurosymbolic AI Research using Knowledge Graphs in Visual Relationship Detection}},
+  journal   = {CoRR},
+  year      = {2023},
+  html      = {http://arxiv.org/abs/2305.13258},
+  abstract  = {NeSy4VRD is a multifaceted resource designed to support the development of neurosymbolic AI (NeSy) research. 
+NeSy4VRD re-establishes public access to the images of the VRD dataset and couples them with an extensively revised, quality-improved version of the VRD visual relationship annotations. 
+Crucially, NeSy4VRD provides a well-aligned, companion OWL ontology that describes the dataset domain.
+It comes with open source infrastructure that provides comprehensive support for extensibility of the annotations (which, in turn, facilitates extensibility of the ontology), and open source code for loading the annotations to/from a knowledge graph.
+We are contributing NeSy4VRD to the computer vision, NeSy and Semantic Web communities to help foster more NeSy research using OWL-based knowledge graphs.},
+  abbr      = {arXiv},
+  bibtex_show = {true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@inproceedings{Herron/NeSy2023,
+  author = {David Herron and
+            Ernesto Jim{\'{e}}nez-Ruiz and
+            Tillman Weyde},
+  title     = {{On the Benefits of OWL-based Knowledge Graphs for Neural-Symbolic Systems}},
+  booktitle = {NeSy 2023: 17th International Workshop on Neural-Symbolic Learning and Reasoning, July 3--5, La Certosa di Pontignano, Siena, Italy},
+  series    = {{CEUR} Workshop Proceedings},
+  volume = {3432},
+  publisher = {CEUR-WS.org},
+  year      = {2023},
+  html = {https://ceur-ws.org/Vol-3432/paper28.pdf},
+  abstract  = {Knowledge graphs, as understood within the Semantic Web and Knowledge Representation communities, are more than just graph data.
+OWL-based knowledge graphs offer the benefits of being based on an ecosystem of open W3C standards that are implemented in a range of reusable existing resources (e.g. curated ontologies, software tools, web-wide linked data) and that also permit researchers to tailor resources for their unique needs (e.g. custom ontologies).
+Additionally, OWL-based knowledge graphs offer the benefits of formal, logical symbolic reasoning (e.g. reliable inference of new knowledge based on Description Logics, semantic consistency checking, extensions via user-defined Datalog rules). 
+These capabilities allow OWL-based knowledge graphs to be leveraged in the form of active reasoning agents to guide deep learning during training and to participate in refining neural inference. 
+We enumerate a host of such benefits to using OWL-based knowledge graphs in neural-symbolic systems. 
+We illustrate several of these by drawing upon examples from our research in visual relationship detection within images, and we point to promising research directions and challenging opportunities.},
+  abbr        = {CEUR},
+  bibtex_show = {true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+
+@article{Herron/2025/NAIjournal,
+  author = {David Herron and 
+            Ernesto Jim{\'{e}}nez-Ruiz and 
+            Tillman Weyde},
+  title = {{On the Potential of Logic and Reasoning in Neurosymbolic Systems Using OWL-Based Knowledge Graphs}},
+  journal = {Neurosymbolic Artificial Intelligence},
+  volume = {1},
+  year = {2025},
+  html = {https://journals.sagepub.com/doi/epdf/10.1177/29498732251320043},
+  abstract = {Knowledge graphs (KGs) feature ever more frequently as symbolic components in neurosymbolic research and systems. But even though a central concern of neurosymbolic artificial intelligence is to combine neural learning with symbolic reasoning, relatively little neurosymbolic research focuses on leveraging the logical representation and reasoning capabilities of Web Ontology Language (OWL)-based KGs. The objective of this position article is to inspire more neurosymbolic researchers to embrace the OWL and the Semantic Web by raising awareness of the benefits, capabilities, and applications of OWL-based KGs, particularly with respect to logical reasoning. We describe the ecosystem of open W3C standards-based resources available that support the adoption and use of OWL-based KGs; we describe tools that exist for engineering custom OWL ontologies tailored to particular research needs; we discuss the encoding of background KG knowledge in subsymbolic embedding spaces and various applications of this approach; we discuss and illustrate the reasoning capabilities of OWL-based KGs; and we describe several promising directions for research that focus on leveraging these reasoning capabilities. We also discuss the specialised resources needed to undertake research on OWL-based KGs in neurosymbolic systems. We use the example of NeSy4VRD, an image dataset with a custom-designed companion OWL ontology. The scarcity of this kind of resource should be addressed to accelerate research in this field.},
+  abbr = {NAI},
+  bibtex_show = {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
+
+
+
+
+
+
+
+

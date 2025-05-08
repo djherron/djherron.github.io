@@ -41,12 +41,7 @@ ninja.data = [{
             window.location.href = "/blog/2022/reinforcement-learning/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-paper-accepted-by-iswc-2022-doctoral-consortium",
+      },{id: "news-paper-accepted-by-iswc-2022-doctoral-consortium",
           title: 'paper accepted by ISWC 2022 Doctoral Consortium',
           description: "",
           section: "News",handler: () => {

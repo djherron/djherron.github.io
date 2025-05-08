@@ -4,7 +4,7 @@ title: the Bellman equation for state values
 date: 2022-12-12 15:30
 description: a derivation
 tags: probability reinforcement-learning
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 ---
 

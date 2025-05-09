@@ -6,7 +6,7 @@ inline: true
 related_posts: false
 ---
 
-I passed my PhD Viva (thesis defence) today, with my examiners requesting only minor amendments to my thesis, and without need for further oral examination. :tada:.  Almost there. The hardest bits are done, but more to do yet to make things official.
+I passed my Viva (thesis defence) today, with my examiners requesting only minor amendments to my thesis, and without need for further oral examination. :tada:.  Almost there. The hardest bits are done, but there is more to do before the award of the degree of PhD becomes official.
 
 
 

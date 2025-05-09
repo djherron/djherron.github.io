@@ -65,17 +65,25 @@ ninja.data = [{
             },},{id: "news-our-position-paper-on-the-benefits-of-owl-based-knowledge-graphs-for-neural-symbolic-systems-has-been-accepted-for-presentation-at-the-nesy-workshop-on-neural-symbolic-learning-and-reasoning-2023-conference-to-be-held-in-siena-italy-in-july-heavy-exclamation-mark-sunglasses-wine-glass",
           title: 'Our position paper On the Benefits of OWL-based Knowledge Graphs for Neural-Symbolic Systems...',
           description: "",
-          section: "News",},{id: "news-resource-paper-preprint-available-on-arxiv",
-          title: 'resource paper preprint available on arXiv',
+          section: "News",},{id: "news-nesy4vrd-resource-paper-preprint-available-on-arxiv",
+          title: 'NeSy4VRD resource paper preprint available on arXiv',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_007/";
-            },},{id: "news-position-paper-presented-at-nesy-2023",
-          title: 'position paper presented at NeSy 2023',
+            },},{id: "news-owl-based-knowledge-graph-position-paper-presented-at-nesy-2023-conference",
+          title: 'OWL-based knowledge graph position paper presented at NeSy 2023 conference',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_008/";
-            },},{id: "projects-community-logos-iteration-1",
+            },},{id: "news-paper-published-in-neurosymbolic-artificial-intelligence-journal",
+          title: 'paper published in Neurosymbolic Artificial Intelligence journal',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_009/";
+            },},{id: "news-i-passed-my-viva-thesis-defence-with-minor-amendments-requested-to-my-thesis-tada",
+          title: 'I passed my Viva (thesis defence) with minor amendments requested to my thesis....',
+          description: "",
+          section: "News",},{id: "projects-community-logos-iteration-1",
           title: 'community logos (iteration 1)',
           description: "a project exploring ideas for community logos",
           section: "Projects",handler: () => {

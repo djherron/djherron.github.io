@@ -80,8 +80,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_009/";
-            },},{id: "news-i-passed-my-viva-thesis-defence-with-minor-amendments-requested-to-my-thesis-tada",
-          title: 'I passed my Viva (thesis defence) with minor amendments requested to my thesis....',
+            },},{id: "news-i-passed-my-phd-viva-thesis-defence-today-with-my-examiners-requesting-only-minor-amendments-to-my-thesis-and-without-need-for-further-oral-examination-tada-almost-there-the-hardest-bits-are-done-but-more-to-do-yet-to-make-things-official",
+          title: 'I passed my PhD Viva (thesis defence) today, with my examiners requesting only...',
           description: "",
           section: "News",},{id: "projects-community-logos-iteration-1",
           title: 'community logos (iteration 1)',

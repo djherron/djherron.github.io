@@ -1,6 +1,6 @@
 ---
 layout: post
-title: position paper presented at NeSy 2023
+title: OWL-based knowledge graph position paper presented at NeSy 2023 conference
 date: 2023-07-09 11:00
 inline: false
 related_posts: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: resource paper preprint available on arXiv
+title: NeSy4VRD resource paper preprint available on arXiv
 date: 2023-05-29 11:00
 inline: false
 related_posts: false

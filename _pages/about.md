@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: student @ City St George's, University of London, London, UK
+subtitle: post-doctoral research assistant @ City St George's, University of London, London, UK
 
 profile:
   align: right

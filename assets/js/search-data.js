@@ -83,7 +83,17 @@ ninja.data = [{
             },},{id: "news-i-passed-my-viva-thesis-defence-today-with-my-examiners-requesting-only-minor-amendments-to-my-thesis-and-without-need-for-further-oral-examination-tada-almost-there-the-hardest-bits-are-done-but-there-is-more-to-do-before-the-award-of-the-degree-of-phd-becomes-official",
           title: 'I passed my Viva (thesis defence) today, with my examiners requesting only minor...',
           description: "",
-          section: "News",},{id: "projects-community-logos-iteration-1",
+          section: "News",},{id: "news-post-doctoral-research-position-begins",
+          title: 'post-doctoral research position begins',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_011/";
+            },},{id: "news-the-title-of-doctor-of-philosophy-formally-awarded",
+          title: 'the title of Doctor of Philosophy formally awarded',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_012/";
+            },},{id: "projects-community-logos-iteration-1",
           title: 'community logos (iteration 1)',
           description: "a project exploring ideas for community logos",
           section: "Projects",handler: () => {

@@ -14,3 +14,7 @@ Soon after that, I received an **award letter**, dated 05 Feb 2026, from City St
 
 What a journey!
 
+You can find my thesis on my **publications** page, and in the City St George's, University of London, [City Research Online](https://openaccess.city.ac.uk/id/eprint/36812/) research paper repository.
+
+
+
